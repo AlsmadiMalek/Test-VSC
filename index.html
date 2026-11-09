@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aria Hart | Personal Blog</title>
+    <meta
+      name="description"
+      content="A personal blog and writing space for lifestyle, creativity, and thoughtful living."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand">Aria Hart</a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#featured">Featured</a>
+          <a href="#journal">Journal</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Writer • Observer • Creator</p>
+            <h1>Stories, ideas, and small rituals for a meaningful life.</h1>
+            <p class="lead">
+              I write about creativity, everyday habits, and the beautiful details that make a life feel fully lived.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#featured">Read the latest</a>
+              <a class="button secondary" href="#about">More about me</a>
+            </div>
+          </div>
+          <div class="hero-card" aria-label="Author portrait card">
+            <div class="profile-frame">
+              <div class="profile-pattern"></div>
+            </div>
+            <div class="mini-note">
+              <span>Currently writing</span>
+              <strong>On Slow Living</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container narrow">
+          <p class="section-tag">About</p>
+          <h2>I’m a writer collecting the details that matter.</h2>
+          <p>
+            I’m Aria, a storyteller and curious observer who believes in the power of quiet routines, intentional work,
+            and honest conversations. This blog is where I share reflections on creativity, slower living, and the
+            everyday adventures that shape who we become.
+          </p>
+        </div>
+      </section>
+
+      <section id="featured" class="section featured">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="section-tag">Featured</p>
+              <h2>Popular reads</h2>
+            </div>
+          </div>
+
+          <div class="card-grid">
+            <article class="post-card large">
+              <span class="tag">Life</span>
+              <h3>How a slower morning changed my creative rhythm</h3>
+              <p>One intentional habit can shift the tone of an entire day.</p>
+              <a href="#journal">Read article</a>
+            </article>
+
+            <article class="post-card">
+              <span class="tag">Creativity</span>
+              <h3>Three ways to make space for your best ideas</h3>
+              <p>Creative work needs breathing room—not just more time.</p>
+              <a href="#journal">Read article</a>
+            </article>
+
+            <article class="post-card">
+              <span class="tag">Travel</span>
+              <h3>Finding beauty in the ordinary corners of a city</h3>
+              <p>Sometimes the best memories arrive in the smallest moments.</p>
+              <a href="#journal">Read article</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="journal" class="section journal">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="section-tag">Journal</p>
+              <h2>Recent notes</h2>
+            </div>
+          </div>
+
+          <div class="journal-list">
+            <article class="journal-item">
+              <span class="date">June 03</span>
+              <div>
+                <h3>Designing a life that feels like yours</h3>
+                <p>On learning to choose clarity over noise.</p>
+              </div>
+            </article>
+
+            <article class="journal-item">
+              <span class="date">May 21</span>
+              <div>
+                <h3>What I carry in my writing bag</h3>
+                <p>Thoughts on tools, rituals, and small creative habits.</p>
+              </div>
+            </article>
+
+            <article class="journal-item">
+              <span class="date">May 09</span>
+              <div>
+                <h3>The first chapter of a new season</h3>
+                <p>Reflections from a month of intentional reinvention.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <p class="section-tag">Let’s connect</p>
+          <h2>hello@ariahart.com</h2>
+        </div>
+        <div class="socials" aria-label="Social media links">
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+          <a href="#">Substack</a>
+        </div>
+      </div>
+      <div class="container copyright">
+        <p>© <span id="year"></span> Aria Hart</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
